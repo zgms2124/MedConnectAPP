@@ -1,0 +1,5 @@
+<!-- dname_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#B3F0FF"/>
+    <corners android:radius="4dp"/>
+</shape>

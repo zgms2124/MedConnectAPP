@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFFFF"/> <!-- 背景颜色 -->
+    <corners android:radius="4dp"/> <!-- 圆角 -->
+    <padding android:left="8dp" android:right="8dp" android:top="4dp" android:bottom="4dp"/> <!-- 内边距 -->
+</shape>
+<!-- 这是一个搜索栏背景的示例，您可以根据需要调整颜色和圆角大小。 -->

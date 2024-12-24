@@ -1,0 +1,66 @@
+<resources>
+    <!-- 应用名称 -->
+    <string name="app_name">医约通</string>
+
+    <!-- 菜单项 -->
+    <string name="menu">菜单</string>
+    <string name="menu_home">首页</string>
+    <string name="menu_appointment">我的预约</string>
+    <string name="menu_profile">个人资料</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_logout">退出登录</string>
+
+    <!-- 搜索相关 -->
+    <string name="search_hint">搜索医生或症状...</string>
+    <string name="search_no_results">没有找到结果</string>
+
+    <!-- 通知相关 -->
+    <string name="notifications">通知</string>
+    <string name="notification_new_message">您有一条新消息</string>
+    <string name="notification_appointment_reminder">预约提醒</string>
+
+    <!-- 登录和注册 -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="forgot_password">忘记密码？</string>
+
+    <!-- 首页 -->
+    <string name="home_welcome">欢迎来到医约通</string>
+    <string name="home_book_appointment">预约挂号</string>
+    <string name="home_view_prescriptions">查看处方</string>
+    <string name="home_consult_doctor">在线咨询医生</string>
+
+    <!-- 预约相关 -->
+    <string name="appointment_schedule">安排预约</string>
+    <string name="appointment_confirm">确认预约</string>
+    <string name="appointment_date">选择日期</string>
+    <string name="appointment_time">选择时间</string>
+    <string name="appointment_specialist">选择专家</string>
+    <string name="appointment_success">预约成功</string>
+    <string name="appointment_cancel">取消预约</string>
+
+    <!-- 个人资料 -->
+    <string name="profile">个人资料</string>
+    <string name="profile_edit">编辑资料</string>
+    <string name="profile_name">姓名</string>
+    <string name="profile_age">年龄</string>
+    <string name="profile_gender">性别</string>
+    <string name="profile_phone">电话</string>
+    <string name="profile_email">电子邮件</string>
+
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="settings_notifications">通知设置</string>
+    <string name="settings_privacy">隐私设置</string>
+    <string name="settings_help">帮助与支持</string>
+
+    <!-- 错误和提示信息 -->
+    <string name="error_network">网络连接不可用</string>
+    <string name="error_server">服务器错误，请稍后再试</string>
+    <string name="error_login">登录失败，请检查您的用户名和密码</string>
+    <string name="error_input">请输入有效的信息</string>
+    <string name="prompt_save_changes">保存更改</string>
+    <string name="prompt_confirm_exit">您确定要退出吗？</string>
+</resources>

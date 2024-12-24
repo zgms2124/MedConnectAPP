@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.LoginActivity"
+    android:background="@drawable/login_background">
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="医约通"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
+
+    <!-- 账号输入框 -->
+    <EditText
+        android:id="@+id/id_et_uid"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_tv_title"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_input_bg"
+        android:hint="请输入账号"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0B0B0"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:inputType="text" />
+
+    <!-- 密码输入框 -->
+    <EditText
+        android:id="@+id/id_et_upsw"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_et_uid"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_input_bg"
+        android:hint="请输入密码"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0B0B0"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:inputType="textPassword" />
+
+    <!-- 登录按钮 -->
+    <Button
+        android:id="@+id/id_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_et_upsw"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_button_bg"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:elevation="4dp"/>
+
+    <!-- 注册链接 -->
+    <TextView
+        android:id="@+id/id_tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="注册账号"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:clickable="true" />
+
+</RelativeLayout>

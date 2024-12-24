@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.RegisterActivity"
+    android:background="@mipmap/register_bg">
+
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="90dp"
+        android:text="注册账户"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/id_et_register_uname"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="请输入姓名"
+        android:inputType="text"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintTop_toBottomOf="@id/id_tv_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/id_et_register_uid"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="请输入账号"
+        android:inputType="text"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintTop_toBottomOf="@id/id_et_register_uname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/id_et_register_upsw"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintTop_toBottomOf="@id/id_et_register_uid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/id_et_register_reupsw"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="请重复输入密码"
+        android:inputType="textPassword"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintTop_toBottomOf="@id/id_et_register_upsw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/id_btn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:text="提交"
+        android:background="@drawable/button_background"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/id_et_register_reupsw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/id_tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="已经注册？直接登录"
+        android:textColor="@color/login_text_color"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/id_btn_register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

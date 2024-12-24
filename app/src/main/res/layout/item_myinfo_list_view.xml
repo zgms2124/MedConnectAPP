@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/item_background"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/departname"
+        android:text="2022-01-16 下午"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/time_background"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/departname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/time"
+        app:layout_constraintEnd_toStartOf="@+id/dname"
+        android:text="皮肤科"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/departname_background"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/dname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/departname"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="王刚"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/dname_background"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
